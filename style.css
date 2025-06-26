@@ -84,12 +84,13 @@
     padding: 14px 20px;
 }
 
-.sidebar_menu .menu i,a{
+.sidebar_menu .menu i,a,span{
     color: white;
     text-decoration: none;
     font-size: 20px;
 
 }
+
 .sidebar_menu .menu i{
     padding-right: 8px;
 
@@ -157,6 +158,11 @@
 
 }
 #dark:checked ~ .sidebar_menu .menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+#dark:checked ~ .sidebar_menu .menu span{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
